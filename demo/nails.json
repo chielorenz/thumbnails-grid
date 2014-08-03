@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "Alfredo",
+     "img" : "img/maluan.jpg",
+    "comment": "Sono molto bello"
+  },
+  {
+    "name" : "Marco",
+     "img" : "img/maluan.jpg",
+    "comment": "sono molto alto"
+  },
+    {
+    "name" : "Franco",
+    "img" : "img/maluan.jpg",
+    "comment": "sono molto franco"
+  }
+]
