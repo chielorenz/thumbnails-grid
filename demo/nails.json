@@ -1,17 +1,12 @@
 [
   {
-    "name" : "Alfredo",
-     "img" : "img/maluan.jpg",
-    "comment": "Sono molto bello"
+    "name" : "Face",
+     "img" : "img/1.jpg",
+    "comment": "Face is a  thooth for eye, and for me"
   },
   {
-    "name" : "Marco",
-     "img" : "img/maluan.jpg",
-    "comment": "sono molto alto"
-  },
-    {
-    "name" : "Franco",
-    "img" : "img/maluan.jpg",
-    "comment": "sono molto franco"
+    "name" : "Eyes",
+     "img" : "img/2.jpg",
+    "comment": "Eyes is  full of fire"
   }
 ]
