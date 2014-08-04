@@ -4,8 +4,8 @@
 	<template>
 		<style>
 			.container{
-				width: 200px;
-				height: 300px;
+				width: 250px;
+				height: 350px;
 				margin: 15px;
 				float: left;
 				position: relative;
@@ -19,8 +19,8 @@
 			}
 			polyfill-next-selector { content: '.container img'; }
 			.container ::content img{
-				width: 200px;
-				height: 300px;
+				width: 250px;
+				height: 350px;
 				z-index: -1;
 				position: relative; /*to make z-index effective */
 				display: block; /*to get the <a> to see the img*/
@@ -30,19 +30,23 @@
 				color: #EFEFEF;
 				font-size: 14px;
 				text-align: center;
-				width: 200px;
+				width: 100%;
 				height: 140px;
-				top: 260px;
+				top: 310px;
 				background-color: transparent;
 				opacity: 0;
 				transition: all 0.2s, background-color 0s 0.2s;
+			}
+			.description ::content p{
+				margin-left: 40px;
+				margin-right: 40px;
 			}
 			.description ::content h3{
 				margin-top: 10px;
 			}
 			.description:hover{
 				transition: top 0.3s, background-color 0s;
-				top: 180px;
+				top: 220px;
 				background-color: #303030;
 			}
 			.container:hover .description{
