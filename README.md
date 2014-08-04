@@ -1,4 +1,4 @@
 thumbnailsGrid
 ==============
 
-thumbnails grid preview
+work in progress
