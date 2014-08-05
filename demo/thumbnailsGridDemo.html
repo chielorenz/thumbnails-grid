@@ -43,20 +43,35 @@
         margin: 0;
         padding: 0;
         font-family: 'Open Sans', sans-serif;
-        background-color: #AAAA66;
+        background-color: #66AAAA;
         background-image: url('img/gray.png');
+        color: #EFEFEF;
       }
       #header{
         width: 100%;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
-        color: #EFEFEF;
+
       }
-      #wrapper{
+      .wrapper{
         width: 840px;
         margin: 50px auto;
         overflow: hidden;
+      }
+      a:link{
+        margin: 10px;
+        padding: 5px;
+        font-size: 18px;
+        color: #EFEFEF;
+        text-decoration: none;
+        border-bottom: 1px dotted #EFEFEF;
+      }
+      a:hover{
+        border-bottom: 1px solid #EFEFEF;
+      }
+      a:visited, a:active{
+        color: #EFEFEF;
       }
     </style>
 
@@ -67,11 +82,32 @@
         <span style="font-size: 40px; font-weight: 700;">Thumbnails grid:</span>
         <span style="font-size: 25px;">all css thumbails preview</span> 
       </p>
+      <p>
+        <a href="#demo" title="demo">demo</a> 
+        <a href="#about" title="about">about</a>
+        <a href="#works" title="how it works">how it works</a> 
+        <a href="#stuff" title="how it works">other stuff</a> 
+      </p>
     </div>
     
-    <div id="wrapper">
-      <thumbnails-grid></thumbnails-grid>
-    </div>   
+    <div class="wrapper" id="demo">
+      <thumbnails-grid></thumbnails-grid> 
+    </div>
+
+    <div class="wrapper" id="about">
+        <h3>About:</h3>
+        <p>About thumbnails grid</p>
+    </div> 
+
+    <div class="wrapper" id="works">
+        <h3>How it works:</h3>
+        <p>How thumbnails grid works comming soon</p>
+    </div>
+
+    <div class="wrapper" id="stuff">
+        <h3>Other stuff:</h3>
+        <p>Other stuff comming soon</p>
+    </div> 
     
   </body>
 </html>
