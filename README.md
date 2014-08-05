@@ -12,7 +12,7 @@ It's build with polymer so is as simple as creating only one thumbnail and the m
 I've used the package manager bower so ther sholud not be dependency problem, you just need a
 
  
-> $bower install
+>$bower install
 
 
 in the project's folder and you are ready to go.
@@ -22,9 +22,9 @@ in the project's folder and you are ready to go.
 ####Structure:
 There are three main files for this project:
 
-*thumb-nail.html is the thumbnail itself.
-*thumbnails-grid.html is the grid element thath wrap all the thumbnails.
-*nails-services.html is a fake-service which read a .json file where all the thumbnails are listed. Normally this will be a server response.
+* thumb-nail.html is the thumbnail itself.
+* thumbnails-grid.html is the grid element thath wrap all the thumbnails.
+* nails-services.html is a fake-service which read a .json file where all the thumbnails are listed. Normally this will be a server response.
 
 ####Workflow:
 The thumbnailsGridDemo.html file import thumbnails-grid.html which call the sevices and build all the thumbnails with the response.
