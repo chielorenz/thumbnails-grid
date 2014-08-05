@@ -30,4 +30,4 @@ There are three main files for this project:
 The thumbnailsGridDemo.html file import thumbnails-grid.html which call the sevices and build all the thumbnails with the response.
 
 ##Thanks
-Hope enjoy. 
+Hope you enjoy. 
