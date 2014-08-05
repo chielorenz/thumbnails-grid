@@ -1,3 +1,11 @@
+<!--
+Thumbnails grid: all css thumbails preview.
+
+https://github.com/chielorenz/thumbnailsGrid.git
+
+This is a demo file.
+-->
+
 <!doctype html>
 <html>
   <head>
@@ -33,7 +41,6 @@
     <!-- IMPORTANT: import the thumbnails grid -->
     <link rel="import" href="../thumbnails-grid.html">
 
-
     <style>
       html{
         margin: 0;
@@ -52,7 +59,6 @@
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
-
       }
       .wrapper{
         width: 840px;
@@ -100,7 +106,20 @@
         -webkit-box-shadow: 0 0 15px #EFEFEF;
            -moz-box-shadow: 0 0 15px #EFEFEF;
                 box-shadow: 0 0 15px #EFEFEF;    
-    }
+      }
+      @media only screen and (max-width: 840px){
+        .wrapper{
+          width: 560px;
+        }
+      }
+      @media only screen and (max-width: 590px){
+        .wrapper{
+          width: 310px;
+        }
+        a:link{
+          float: left;
+        }
+      }
     </style>
 
   </head>
