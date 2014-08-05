@@ -79,7 +79,28 @@
         border: 0;
         border-bottom: 1px dotted #EFEFEF;
         background-color: transparent;
+      }
+      #download a:link{
+        float: left;
+        width: 40%;
+        margin: 50px 5%;
+        padding: 8px 0; 
+        background-color: #EFEFEF;
+        text-align: center;
+        color: #66AAAA;
+        border-bottom: 0;
      }
+     #download a:active,
+     #download a:visited{
+        color: #66AAAA;
+     }
+     #download a:hover{
+        color: #66AAAA;
+        transition: box-shadow 0.1s;
+        -webkit-box-shadow: 0 0 15px #EFEFEF;
+           -moz-box-shadow: 0 0 15px #EFEFEF;
+                box-shadow: 0 0 15px #EFEFEF;    
+    }
     </style>
 
   </head>
@@ -119,7 +140,8 @@
     <div class="wrapper" id="download">
         <h2>download:</h2>
         <hr>
-        <a href="" title="see on github">see on github</a> <a href="" title="download zip">download zip</a>
+        <a  href="https://github.com/chielorenz/thumbnailsGrid.git" title="see on github">see on github</a>
+        <a href="https://github.com/chielorenz/thumbnailsGrid/archive/master.zip" title="download zip">download zip</a>
     </div> 
     
   </body>
