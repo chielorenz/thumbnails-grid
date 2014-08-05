@@ -60,8 +60,6 @@
         overflow: hidden;
       }
       a:link{
-        margin: 10px;
-        padding: 5px;
         font-size: 18px;
         color: #EFEFEF;
         text-decoration: none;
@@ -73,20 +71,29 @@
       a:visited, a:active{
         color: #EFEFEF;
       }
+      #header a:link{
+        margin: 10px;
+        padding: 5px;
+      }
+      hr{
+        border: 0;
+        border-bottom: 1px dotted #EFEFEF;
+        background-color: transparent;
+     }
     </style>
 
   </head>
   <body>
     <div id="header">
       <p>
-        <span style="font-size: 40px; font-weight: 700;">Thumbnails grid:</span>
-        <span style="font-size: 25px;">all css thumbails preview</span> 
+        <span style="font-size: 40px; font-weight: 700;">Thumbnails grid: </span>
+        <span style="font-size: 25px;"> all css thumbails preview</span> 
       </p>
       <p>
         <a href="#demo" title="demo">demo</a> 
         <a href="#about" title="about">about</a>
         <a href="#works" title="how it works">how it works</a> 
-        <a href="#stuff" title="how it works">other stuff</a> 
+        <a href="#download" title="how it works">download</a> 
       </p>
     </div>
     
@@ -95,18 +102,24 @@
     </div>
 
     <div class="wrapper" id="about">
-        <h3>About:</h3>
-        <p>About thumbnails grid</p>
+        <h2>About:</h2>
+        <hr>
+        <p>The aim of the Thumbnails Grid is to create a simple grid of thumbnails with an image (inside an ancor), a description and some cool css transition. The adaptive layout of the thumbnails is not the purpose of this project.</p>
+        <h4>Elements:</h4>
+        <p>It's build with <a href="http://www.polymer-project.org/" title="polymer-project">polymer</a> so is as simple as creating only one thumbnail and the magic of html5 element does the dirty job.</p>
+        <h4>Dependencies:</h4>
+        <p>I've used the package manager <a href="http://bower.io/" title="bower">bower</a> so ther sholud not be dependency problem, you just need a <blockquote>$bower install</blockquote> in the project's folder and you are ready to go.</p>
     </div> 
-
     <div class="wrapper" id="works">
-        <h3>How it works:</h3>
+        <h2>How it works:</h2>
+        <hr>
         <p>How thumbnails grid works comming soon</p>
     </div>
 
-    <div class="wrapper" id="stuff">
-        <h3>Other stuff:</h3>
-        <p>Other stuff comming soon</p>
+    <div class="wrapper" id="download">
+        <h2>download:</h2>
+        <hr>
+        <a href="" title="see on github">see on github</a> <a href="" title="download zip">download zip</a>
     </div> 
     
   </body>
