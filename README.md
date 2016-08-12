@@ -1,6 +1,6 @@
 ##Thumbnails Grid: all css thumbails preview
 
-####[Live Demo](http://www.lucalorenzini.org/projects/thumbnailsGrid/demo/thumbnailsGridDemo.html)
+####[Live Demo](http://luca.design/projects/thumbnailsGrid/demo/thumbnailsGridDemo.html)
 
 ##About:
 The aim of the Thumbnails Grid is to create a simple grid of thumbnails with an image (inside an ancor), a description and some cool css transition. The adaptive layout of the thumbnails is not the purpose of this project.
